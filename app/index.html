@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+<div id="fullpage">
+    <section class="section section_first" id="section-1">
+        <div class="slider">
+            <div class="slider-section"><img class="slider-section__content" src="http://placehold.it/1200x400"/></div>
+            <div class="slider-section"><img class="slider-section__content" src="http://placehold.it/1200x400"/></div>
+            <div class="slider-section"><img class="slider-section__content" src="http://placehold.it/1200x400"/></div>
+        </div>
+    </section>
+    <section class="section section_second" id="section-2">
+        <h1 class="section_second__text">Ready?</h1>
+        <img id="star-1" class="star star_first" src="./img/star.svg" alt="star">
+        <img id="star-2" class="star star_second" src="./img/star.svg" alt="star">
+        <img id="star-3" class="star star_third" src="./img/star.svg" alt="star">
+        <img id="star-4" class="star star_fourth" src="./img/star.svg" alt="star">
+    </section>
+    <section class="section section_third" id="section-3">
+        <div class="form">
+            <form id="form">
+                <h2 class="form__title">Оставить отзыв</h2>
+                <label class="form__label" for="email">Email</label>
+                <span id="email-error" class="error"></span>
+                <input class="form__input"
+                       id="email"
+                       name="email"
+                       type="email"
+
+                />
+                <label class="form__label" for="name">Имя</label>
+                <span id="name-error" class="error"></span>
+                <input class="form__input"
+                       id="name"
+                       name="name"
+                       type="text"
+
+                />
+                <label class="form__label" for="message">Сообщение</label>
+                <span id="message-error" class="error"></span>
+                <textarea class="form__textarea"
+                          id="message"
+                          name="message"
+                ></textarea>
+                <button class="form__btn" type="submit">Отправить</button>
+            </form>
+            <div class="form-message">
+                <img src="./img/right.svg" alt="done">
+                <p>Отправлено! Спасибо за отзыв :)</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
